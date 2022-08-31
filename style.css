@@ -18,7 +18,7 @@ header {
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 95%;
 	margin: 0 auto;
 }
 
@@ -102,7 +102,12 @@ em strong {
 }
 
 .imagembeneficios {
-	width: 50%;
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+		margin: 0 50px 50px 0;
+		opacity: 1;
+		transition: 400ms;
 }
 
 footer{
