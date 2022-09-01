@@ -27,16 +27,16 @@
     <main>
         <form>
             <label for="nomeesobrenome"> Nome e Sobrenome:</label>
-            <input type="text" id="nomeesobrenome">
+            <input type="text" id="nomeesobrenome" class="input-padrão">
 
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="input-padrão">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="text" id="telefone" class="input-padrão">
 
             <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" cols="70" rows="10"></textarea>
+            <textarea id="mensagem" cols="70" rows="10"></textarea class="input-padrão">
 
             
 
@@ -49,12 +49,18 @@
                 
 
                 <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp"> Whatsapp</label>
-                
-
-                <input type="submit" id="Enviar Formulário">
             </div>
-
-            <label><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+            
+            <div> <br><br>
+                <p>Qual horario prefere ser atendido?</p>
+                <select >
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </div>
+        
+            <label ><input type="checkbox"class= "checkbox"> Gostaria de receber nossas novidades por email?</label>
 
             <input type="submit" value="Enviar formulário">
 
