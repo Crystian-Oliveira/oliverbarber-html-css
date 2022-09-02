@@ -1,13 +1,17 @@
 body{
 	background-color: #FFF1;
 }
-.titulo-principal {
-	background: #BBBBBB;
+.titulo-principal h1 {
+	background: #f1e7dd;
 	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
-	padding: 22px 0;
+	padding: 22px 22px;
 
+}
+
+#banner{
+	margin-bottom: 35px;
 }
 
 
