@@ -33,6 +33,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
 main{
 	width: 940px;
 	margin: 0 auto;
@@ -46,21 +47,22 @@ form {
 .input-padrão {
 	display: block;
 	font-size: 20px;
-	margin: 0 0 10px;
+	margin: 7px 0 20px;
  }
 
 form input, form textarea{
 	display: block;
-	padding: 10px 25px;
-	margin: 0 0 20px;
+	padding: 5px 25px;
+	margin: 0 0 30px;
 	width: 50%;
 }
 
 .checkbox{
 	margin: 10px;
 	display: block;
-	
 }
+
+
 
 
 
