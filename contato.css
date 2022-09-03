@@ -29,8 +29,9 @@ nav a {
 }
 
 nav a:hover {
-    color: #34a318;
+    color: #770000;
     text-decoration: underline;
+	cursor: pointer;
 }
 
 
@@ -64,6 +65,27 @@ form input, form textarea{
 	margin: 10px;
 	display: block;
 
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0 ;
+	background-color: rgb(54, 14, 14);
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	
+	
+	
+}
+
+.enviar:hover{
+	background-color: rgb(126, 9, 9);
+	
+	
 }
 
 

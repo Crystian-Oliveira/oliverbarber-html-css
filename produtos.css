@@ -28,8 +28,9 @@ nav a {
 	text-decoration: none;
 }
 nav a:hover {
-    color: #34a318;
+    color: #770000;
     text-decoration: underline;
+	cursor: pointer;
 }
 
 .produtos {
