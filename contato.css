@@ -67,7 +67,7 @@ form input, form textarea{
 
 }
 
-.enviar{
+.enviar {
 	width: 40%;
 	padding: 15px 0 ;
 	background-color: rgb(54, 14, 14);
@@ -79,16 +79,30 @@ form input, form textarea{
 	cursor: pointer;
 	transition-duration: 200ms;
 	
-	
-	
-	
 }
 
-.enviar:hover{
+.enviar:hover {
 	background-color: rgb(126, 9, 9);
 	transform: scale(1.05);
 	
 }
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background:#555555;
+	color: #FFF;
+	font-weight: bold;
+
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+}
+
 
 
 
